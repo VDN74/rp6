@@ -1,0 +1,26 @@
+.zus {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2px;
+}
+
+.zus__horizontal-line1 {
+	width: 100%;
+	height: 2px;
+	background-color: #000000;
+}
+
+.zus__horizontal-line2 {
+	width: 60%;
+	height: 2px;
+	background-color: #000000;
+}
+
+.zus__horizontal-line3 {
+	width: 30%;
+	height: 2px;
+	background-color: #000000;
+}

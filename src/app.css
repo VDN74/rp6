@@ -1,0 +1,39 @@
+.app__buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.app__sec1 {
+	margin-bottom: 35px;
+    display: flex;
+    gap: 0px;
+}
+
+.app__sec2 {
+    display: flex;
+    gap: 0px;
+}
+
+.app__title1 {
+	/* position: relative; */
+	/* left: 385px; */
+	padding-left: 510px;
+	font-family: "sans-serif";
+	font-weight: bold;
+}
+
+.app__title2 {
+	/* position: relative; */
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: "sans-serif";
+	font-weight: bold;
+}
+
+.app__title3 {
+	/* position: relative; */
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: "sans-serif";
+	font-weight: bold;
+}

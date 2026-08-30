@@ -1,0 +1,257 @@
+.cell-tn {
+	position: relative;
+	width: 97px;
+	height: 353px;
+	border: 1px solid rgb(0, 0, 0);
+	margin-left: -1px;
+}
+
+
+.cell-tn__horiz-line0 {
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+	position: absolute;
+	top: 18px;
+	left: 0;
+}
+
+
+/* _______________________________________ */
+
+.cell-tn__horiz-line1 {
+	width: 63px;
+	height: 8px;
+	background-color: #000000;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+.cell-tn__horiz-line12 {
+	width: 210px;
+	height: 8px;
+	background-color: #000000;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+.cell-tn__vert-line12 {
+	width: 8px;
+	height: 415px;
+	background-color: #000000;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.cell-tn__vertical-line1 {
+	width: 2px;
+	height: 100px;
+	background-color: #000000;
+	position: absolute;
+	top: 30px;
+	left: 42px;
+}
+
+.cell-tn__vert-line-r-1 {
+	position: absolute;
+	top: 17px;
+	left: -14px;
+	width: 30px;
+	height: 30px;
+	background-color: #ffffff;
+}
+
+.cell-tn__vertical-line2 {
+	width: 2px;
+	height: 255px;
+	background-color: #000000;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+/*
+.cell-tn__vertical-line2-square1 {
+	position: absolute;
+	z-index: -1;
+	top: 248px;
+	right: 2px;
+	width: 30px;
+	height: 10px;
+	background-color: #ee7d7d;
+}
+*/
+
+
+.cell-tn__vertical-line-r-2 {
+	position: absolute;
+	top: 171px;
+	left: -14px;
+	width: 30px;
+	height: 30px;
+	background-color: #ffffff;
+	z-index: 1;
+}
+
+.cell-tn__vertical-line-zn-1 {
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	width: 65px;
+	height: 65px;
+	/* background-color: #f98989; */
+}
+
+.cell-tn__horizontal-line-zn1 {
+	width: 30px;
+	height: 2px;
+	background-color: #000000;
+	position: absolute;
+	left: 0;
+}
+
+.cell-tn__vertical-line-zn1 {
+	width: 2px;
+	height: 80%;
+	background-color: #000000;
+	position: absolute;
+	top: 0px;
+	left: 30px;
+}
+
+.cell-tn__vertical-line-zn-2 {
+	position: absolute;
+	top: 210px;
+	left: 2px;
+	width: 65px;
+	height: 65px;
+	background-color: #ffffff;
+}
+
+.cell-tn__vertical-line-zn-3 {
+	position: absolute;
+	top: 150px;
+	left: 2px;
+	width: 65px;
+	height: 65px;
+	
+	/*background-color: #ffffff; */
+}
+
+.cell-tn__horizontal-line-zn {
+	width: 40px;
+	height: 2px;
+	background-color: #000000;
+	position: absolute;
+	left: 0;
+}
+
+.cell-tn__vertical-line-zn {
+	width: 2px;
+	height: 80%;
+	background-color: #000000;
+	position: absolute;
+	top: 0px;
+	left: 40px;
+}
+
+.cell-tn__vertical-line-zn-square {
+	position: absolute;
+	top: 10px;
+	left: -11px;
+	width: 24px;
+	height: 24px;
+	background-color: #ffffff;
+}
+
+.cell-tn__zus {
+	position: absolute;
+	top: 42px;
+	left: -9.5px;
+	width: 20px;
+	height: 15px;
+	background-color: #ffffff;
+}
+
+.cell-tn__circle1 {
+	position: absolute;
+	top: 100px;
+	left: -10px;
+    width: 24px;        /* ширина круга */
+    height: 24px;       /* высота круга (равна ширине) */
+    border: 2px solid black; /* Толщина и цвет контура */
+    border-radius: 50%
+}
+
+.cell-tn__circle2 {
+	position: absolute;
+	top: 115px;
+	left: -10px;
+    width: 24px;        /* ширина круга */
+    height: 24px;       /* высота круга (равна ширине) */
+    border: 2px solid black; /* Толщина и цвет контура */
+    border-radius: 50%
+}
+
+.cell-tn__circle3 {
+	position: absolute;
+	top: 107px;
+	left: 2px;
+    width: 24px; 
+    height: 24px;
+    border: 2px solid black;
+    border-radius: 50%
+}
+
+.cell-tn__dashed-line1 {
+  position: absolute;
+  border: none;
+  border-top: 1px dashed black; /* Толщина и цвет */
+  height: 1px;
+  width: 100%;
+  top: 173px;
+}
+
+
+
+/* ______________________________________ */
+
+.cell-tn__horiz-line-end {
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+	position: absolute;
+	top: 302px;
+	left: 0;
+}
+
+.cell-tn__start {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 15px;
+	padding: 1px 0;
+	font-family: "sans-serif";
+	/* font-weight: bold; */
+}
+
+.cell-tn__end {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0px;
+	font-size: 13px;
+	font-family: "sans-serif";
+	/* font-weight: bold; */
+}

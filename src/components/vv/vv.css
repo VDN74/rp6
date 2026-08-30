@@ -1,0 +1,31 @@
+.vv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(0,0,0);
+}
+
+.vv_active {
+  background-color: rgb(249, 219, 219);
+}
+
+
+.rr-vv {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: linear-gradient(to bottom, #000, #000); /* два цвета */
+  background-size: 2px 77%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: rotate(90deg);
+  transition: transform 0.3s;
+}
+
+.rr-vv_active {
+  transform: rotate(0deg);
+  /* background-color: rgb(249, 219, 219); */
+}

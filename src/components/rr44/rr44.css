@@ -1,0 +1,48 @@
+.rr44-box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* top: 151px; */
+  left: 0;
+  /* background: #eee; /* для наглядности */ 
+  cursor: pointer;
+  overflow: visible;
+}
+
+/* ДВЕРЬ (вертикальная полоса 4px посередине, вращается с низа) */
+.rr44-door {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  left: 50%;
+  bottom: 0;
+  background: #000000;
+  border-radius: 2px;
+  transform: translateX(-50%) rotate(0deg);
+  transform-origin: 50% 100%; /* центр по ширине и в самом низу */
+  transition: transform 0.5s;
+  z-index: 1;
+}
+
+.rr44-door_active {
+  transform: translateX(-50%) rotate(33deg); /* открытая дверь налево */
+}
+
+/* Горизонтальные "ручки" */
+.rr44-handle {
+  position: absolute;
+  width: 6px;
+  height: 2px;
+  left: 50%;
+  background: #000000;
+  border-radius: 1px;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.rr44-handle_top {
+  top: -2px; /* сверху, чуть выдается */
+}
+.rr44-handle_bottom {
+  bottom: -2px; /* снизу */
+}

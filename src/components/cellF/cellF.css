@@ -1,0 +1,98 @@
+.cell-f {
+	position: relative;
+	width: 97px;
+	height: 353px;
+	border: 1px solid rgb(0, 0, 0);
+	margin-left: -1px;
+}
+
+.cell-f__horiz-line0 {
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+	position: absolute;
+	top: 18px;
+	left: 0;
+}
+
+
+
+/* _______________________________________ */
+
+.cell-f__horiz-line1 {
+	width: 97px;
+	height: 8px;
+	background-color: #000000;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+.cell-f__horiz-line2 {
+	width: 135%;
+	height: 2px;
+	background-color: #000000;
+	position: absolute;
+	top: 283px;
+	left: -70%;
+}
+
+.cell-f__vert-line1 {
+	width: 2px;
+	height: 15px;
+	background-color: #000000;
+	position: absolute;
+	top: 0;
+	right: 5%;
+}
+
+.cell-f__vert-line2 {
+	width: 2px;
+	height: 15px;
+	background-color: #000000;
+	position: absolute;
+	top: 0;
+	right: 17%;
+}
+
+
+
+
+/* ______________________________________ */
+
+.cell-f__horiz-line-end {
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+	position: absolute;
+	top: 302px;
+	left: 0;
+}
+
+.cell-f__start {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 15px;
+	padding: 1px 0;
+	font-family: "sans-serif";
+	/* font-weight: bold; */
+}
+
+.cell-f__end {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0px;
+	font-size: 13px;
+	font-family: "sans-serif";
+	/* font-weight: bold; */
+}

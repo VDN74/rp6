@@ -1,0 +1,36 @@
+.btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 0px;
+	/* background-color: rgb(240, 66, 66); */
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+	opacity: 0.7;
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+
+.btn_primary {
+	background-color: rgb(201, 201, 201);
+}
+
+.btn_secondary {
+	background-color: rgb(118, 118, 218);
+}
+
+.btn_success {
+	background-color: rgb(122, 204, 135);
+}
+
+.btn_warn {
+	background-color: rgb(221, 106, 53);
+}
+
+.btn_error {
+	background-color: rgb(255, 21, 0);
+}

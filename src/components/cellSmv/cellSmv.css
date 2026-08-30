@@ -1,0 +1,163 @@
+.cell-smv {
+	position: relative;
+	width: 97px;
+	height: 353px;
+	border: 1px solid rgb(0, 0, 0);
+	margin-left: -1px;
+}
+
+.cell-smv__start {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 15px;
+	padding: 1px 0;
+	font-family: "sans-serif";
+	/* font-weight: bold; */
+}
+
+.cell-smv__horiz-line0 {
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+	position: absolute;
+	top: 18px;
+	left: 0;
+}
+
+
+/* _______________________________________ */
+
+.cell-smv__horiz-line1 {
+	width: 39px;
+	height: 8px;
+	background-color: #000000;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+.cell-smv__vertical-line1 {
+	width: 2px;
+	height: 255px;
+	background-color: #000000;
+	position: absolute;
+	
+	left: 28px;
+}
+
+.cell-smv__vert-line-r-1 {
+	position: absolute;
+	top: 17px;
+	left: -14px;
+	width: 30px;
+	height: 30px;
+	background-color: #ffffff;
+}
+
+.cell-smv__vertical-line-vv {
+	position: absolute;
+	top: 100px;
+	left: -16px;
+	width: 34px;
+	height: 34px;
+	/* background-color: #f14848; */
+}
+
+
+.cell-smv__vertical-line-zn-1 {
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	width: 65px;
+	height: 65px;
+	/* background-color: #f09456; */
+}
+
+.cell-smv__horizontal-line-zn {
+	width: 40px;
+	height: 2px;
+	background-color: #000000;
+	position: absolute;
+	left: 0;
+}
+
+.cell-smv__vertical-line2 {
+	width: 2px;
+	height: 80%;
+	background-color: #000000;
+	position: absolute;
+	top: 0px;
+	left: 40px;
+}
+
+.cell-smv__vertical-line2-zn1 {
+	position: absolute;
+	top: 10px;
+	left: -11px;
+	width: 24px;
+	height: 24px;
+	background-color: #ffffff;
+}
+
+.cell-smv__zus {
+	position: absolute;
+	top: 42px;
+	left: -9.5px;
+	width: 20px;
+	height: 15px;
+	background-color: #ffffff;
+}
+
+.cell-smv__horizontal-line3 {
+	width: 91.5px;
+	height: 2px;
+	top: 253px;
+	background-color: #000000;
+	position: absolute;
+	z-index: -2;
+	left: 0px;
+	z-index: -2;
+}
+
+/*
+.cell-smv__vertical-line3 {
+	width: 8px;
+	height: 422px;
+	background-color: #000000;
+	position: absolute;
+	z-index: -2;
+	top: 0px;
+	right: 4px;
+}
+*/
+
+
+
+/* ______________________________________ */
+.cell-smv__horiz-line-end {
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+	position: absolute;
+	top: 302px;
+	left: 0;
+}
+
+.cell-smv__end {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0px;
+	font-size: 13px;
+	font-family: "sans-serif";
+	/* font-weight: bold; */
+}
