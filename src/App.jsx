@@ -79,7 +79,7 @@ const App = () => {
       display: "flex",
       flexDirection: "column",
       gap: "10px",
-      width: "460px",
+      width: "560px",
       height: "140px",
     },
   };
