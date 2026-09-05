@@ -1,3 +1,8 @@
+.wrap1 {
+	width: 1600px;
+	min-width: 1600px;
+}
+
 .app__buttons {
     display: flex;
     gap: 20px;
